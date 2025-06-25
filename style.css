@@ -18,7 +18,9 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Containers */
@@ -76,3 +78,20 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/* Offset the #about section slightly upward to visually align it better with other sections */
+#about {
+  margin-top: -40px;
+}
+
+/* Use flexbox to place Pete's image and the text side-by-side and vertically centered */
+.about-content {
+  display: flex;
+  align-items: center; 
+}
+
+/* Ensure the paragraph and list content inside the about section is left-aligned */
+.about-description {
+  text-align: left;
+}
+
