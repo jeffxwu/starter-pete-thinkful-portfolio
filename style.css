@@ -95,3 +95,16 @@ hr {
   text-align: left;
 }
 
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.portfolio-item {
+  flex: 1;
+  margin: 10px;
+}
+
+.portfolio-item p {
+  font-size: 14px;
+}
